@@ -22,6 +22,7 @@ shows a{
 header .nav-item {
 	margin-right: 20px;
 	text-align: center;
+	
 }
 
 .navbar-collapse .bookbutton{
@@ -43,8 +44,8 @@ header .nav-item {
 h1 {
 	text-align: center;
 	padding-bottom: 20px;
-	font-family: 'Oswald', "arial black", sans-serif;
-	font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 	font-size: 42px;
 	color: #343434;
 }
@@ -54,7 +55,7 @@ h1 {
 }
 
 .banner-image{
-    padding: 50px;
+    padding: 100px;
 }
 
 a:hover {
@@ -72,6 +73,11 @@ a:hover {
 	padding-right: 10px;
 }
 
+.redd .active {
+	background-color: #dc3545!important;
+	color: white!important;
+}
+
 .card-title {
 	font-size: large;
 	font-weight: bold;
@@ -85,8 +91,49 @@ a:hover {
 	background-color: red;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	.shows .card {
 		height: auto;
+	}
+
+	.banner-image{
+		padding-top: 50px;
+		padding-bottom: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: -100px;
+	}
+
+	h1{
+		font-size: 40px;
+		font-weight: bold!important;
+	}
+
+	.navbar-brand {
+		padding-left: 10px;
+		scale: 0.9;
+	}
+
+	#navbar .nav-link {
+		font-weight: bolder!important;
+		font-size: 18px!important;
+		text-align: center;
+	}
+
+	.bookbutton a{
+		font-size: 18px;
+		font-weight: bolder;
+	}
+
+	.maps iframe{
+		width: 380px!important;
+		
+	}
+
+	.cinema-img {
+		padding: 0!important;
+		margin-top: -100px;
+		margin-bottom: -150px;
+		scale: 0.8;
 	}
   }
