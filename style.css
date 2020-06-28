@@ -14,12 +14,23 @@ body {
 a {
     color: white;
 }
+
 shows a{
     color: black;
 }
+
 header .nav-item {
-    margin-right: 20px;
+	margin-right: 20px;
+	text-align: center;
 }
+
+.navbar-collapse .bookbutton{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
 /* .bar {
 	width: 240px;
 	height: 26px;
@@ -50,9 +61,15 @@ a:hover {
 	color: red;
 }
 
-.nav-link {
+.navbar-nav li a {
 	font-size: 18px;
 	font-weight: 500;
+}
+
+.shows a {
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .card-title {
@@ -63,3 +80,13 @@ a:hover {
 .shows .card {
 	height: 715px;
 }
+
+.show-tag {
+	background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+	.shows .card {
+		height: auto;
+	}
+  }
