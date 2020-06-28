@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:whitesmoke;
+    /* font-weight: bold; */
+}
+
+.socialmedia {
+    color: white;
+}
+.socialmedia:hover {
+    color: #00acee;
+}
+
+a {
+    color: white;
+}
+shows a{
+    color: black;
+}
+header .nav-item {
+    margin-right: 20px;
+}
+/* .bar {
+	width: 240px;
+	height: 26px;
+	background-color: #446fd4;
+	margin: auto;
+	margin-top: -47px;
+	border-radius: 2px;
+} */
+
+h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: 'Oswald', "arial black", sans-serif;
+	font-weight: 300;
+	font-size: 42px;
+	color: #343434;
+}
+
+.banner-bg {
+ padding-top: 150px;
+}
+
+.banner-image{
+    padding: 50px;
+}
+
+a:hover {
+	color: red;
+}
+
+.nav-link {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.card-title {
+	font-size: large;
+	font-weight: bold;
+}
+
+.card {
+	height: 715px;
+}
