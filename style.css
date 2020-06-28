@@ -60,6 +60,6 @@ a:hover {
 	font-weight: bold;
 }
 
-.card {
+#shows .card {
 	height: 715px;
 }
