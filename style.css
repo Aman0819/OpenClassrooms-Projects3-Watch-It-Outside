@@ -51,7 +51,7 @@ h1 {
 }
 
 .banner-text {
- padding-top: 150px;
+ padding-top: 200px;
 }
 
 .banner-image{
@@ -89,6 +89,15 @@ a:hover {
 
 .show-tag {
 	background-color: red;
+}
+
+.tab-content .card img {
+	height: 505px!important;
+}
+
+.cinema-img img{
+	padding-left: 0px!important;
+	margin-left: 0px!important;
 }
 
 @media only screen and (max-width: 768px) {
