@@ -50,7 +50,7 @@ h1 {
 	color: #343434;
 }
 
-.banner-bg {
+.banner-text {
  padding-top: 150px;
 }
 
@@ -120,6 +120,10 @@ a:hover {
 		text-align: center;
 	}
 
+	.banner-text {
+		padding-bottom: 20px;
+	}
+
 	.bookbutton a{
 		font-size: 18px;
 		font-weight: bolder;
@@ -135,5 +139,10 @@ a:hover {
 		margin-top: -100px;
 		margin-bottom: -150px;
 		scale: 0.8;
+	}
+
+	.venue-align {
+		text-align: center;
+		padding-bottom: 10px;
 	}
   }
