@@ -147,7 +147,7 @@ a:hover {
 		padding: 0!important;
 		margin-top: -100px;
 		margin-bottom: -150px;
-		scale: 0.8;
+		/* scale: 0.8; */
 	}
 
 	.venue-align {
