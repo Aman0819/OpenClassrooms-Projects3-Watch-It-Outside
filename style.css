@@ -145,9 +145,11 @@ a:hover {
 
 	.cinema-img {
 		padding: 0!important;
-		margin-top: -100px;
-		margin-bottom: -150px;
-		scale: 0.8;
+		margin-top: -50px;
+		margin-bottom: -75px;
+		margin-left: 75px;
+		height: 310px!important;
+		width: 280px!important;
 	}
 
 	.venue-align {
