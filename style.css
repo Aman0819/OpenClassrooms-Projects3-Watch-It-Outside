@@ -22,6 +22,11 @@ body {
   header .nav-item {
 	margin-right: 20px;
 	text-align: center;
+	font-weight: bold;
+  }
+
+  .bookbutton a{
+	  font-weight: bold;
   }
   
   .navbar-collapse .bookbutton {
