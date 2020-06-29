@@ -1,165 +1,188 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color:whitesmoke;
-    /* font-weight: bold; */
-}
-
-.socialmedia {
-    color: white;
-}
-.socialmedia:hover {
-    color: #00acee;
-}
-
-a {
-    color: white;
-}
-
-shows a{
-    color: black;
-}
-
-header .nav-item {
+	font-family: "Montserrat", sans-serif;
+	background-color: whitesmoke;
+	/* font-weight: bold; */
+  }
+  
+  .socialmedia {
+	color: white;
+  }
+  .socialmedia:hover {
+	color: #00acee;
+  }
+  
+  a {
+	color: white;
+  }
+  
+  shows a {
+	color: black;
+  }
+  
+  header .nav-item {
 	margin-right: 20px;
 	text-align: center;
-	
-}
-
-.navbar-collapse .bookbutton{
+  }
+  
+  .navbar-collapse .bookbutton {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-}
-
-
-/* .bar {
-	width: 240px;
-	height: 26px;
-	background-color: #446fd4;
-	margin: auto;
-	margin-top: -47px;
-	border-radius: 2px;
-} */
-
-h1 {
+  }
+  
+  /* .bar {
+  width: 240px;
+  height: 26px;
+  background-color: #446fd4;
+  margin: auto;
+  margin-top: -47px;
+  border-radius: 2px;
+  } */
+  
+  h1 {
 	text-align: center;
 	padding-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	font-weight: bold;
 	font-size: 42px;
-	color: #343434;
-}
-
-.banner-text {
- padding-top: 200px;
-}
-
-.banner-image{
-    padding: 100px;
-}
-
-a:hover {
+	color: #303841;
+  }
+  
+  .banner-text {
+	padding-top: 200px;
+  }
+  
+  .banner-image {
+	padding: 100px;
+  }
+  
+  a:hover {
 	color: red;
-}
-
-.navbar-nav li a {
+  }
+  
+  .navbar-nav li a {
 	font-size: 18px;
 	font-weight: 500;
-}
-
-.shows a {
+  }
+  
+  .shows a {
 	font-size: 18px;
 	padding-left: 10px;
 	padding-right: 10px;
-}
-
-.redd .active {
-	background-color: #dc3545!important;
-	color: white!important;
-}
-
-.card-title {
+  }
+  
+  .redd .active {
+	background-color: #dc3545 !important;
+	color: white !important;
+  }
+  
+  .card-title {
 	font-size: large;
 	font-weight: bold;
-}
-
-.shows .card {
+  }
+  
+  .shows .card {
 	height: 715px;
-}
-
-.show-tag {
+  }
+  
+  .show-tag {
 	background-color: red;
-}
+  }
+  
+  .tab-content .card img {
+	height: 505px !important;
+  }
+  
+  .cinema-img img {
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+  }
 
-.tab-content .card img {
-	height: 505px!important;
-}
+  .maps {
+	text-align: center !important;
+  }
 
-.cinema-img img{
-	padding-left: 0px!important;
-	margin-left: 0px!important;
-}
-
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 979px) and (min-width: 768px)  {
 	.shows .card {
-		height: auto;
-	}
-
-	.banner-image{
-		padding-top: 50px;
-		padding-bottom: 0;
-		padding-left: 30px;
-		padding-right: 30px;
-		margin-bottom: -100px;
-	}
-
-	h1{
-		font-size: 40px;
-		font-weight: bold!important;
-	}
-
-	.navbar-brand {
-		padding-left: 10px;
-		scale: 0.9;
-	}
-
-	#navbar .nav-link {
-		font-weight: bolder!important;
-		font-size: 18px!important;
-		text-align: center;
-	}
+		height: 850px;
+	  }
 
 	.banner-text {
-		padding-bottom: 20px;
-	}
-
-	.bookbutton a{
-		font-size: 18px;
-		font-weight: bolder;
-	}
-
-	.maps {
-		text-align: center!important;
-	}
-	
-	.maps iframe{
-		width: 380px!important;
-		
-		
+		padding-top: 0px;
+		padding-bottom: 50px;
 	}
 
 	.cinema-img {
-		padding-top: 0px!important;
-		padding-bottom: 0px!important;
-		padding-left: 30px!important;
-		padding-right: 30px!important;
-		margin-bottom: -50px!important;
-		margin-top: -100px!important;
-		text-align: center!important;
-	}
-
-	.venue-align {
+		padding: 0!important;
 		text-align: center;
-		padding-bottom: 10px;
+		margin-top: -10px;
+		margin-bottom: -100px;
+	}
+	.cinema-img img {
+		height: 300px!important;
+		width: 300px!important;
 	}
   }
+  
+  @media only screen and (max-width: 768px) {
+	.shows .card {
+	  height: auto;
+	}
+  
+	.banner-image {
+	  padding-top: 50px;
+	  padding-bottom: 0;
+	  padding-left: 30px;
+	  padding-right: 30px;
+	  margin-bottom: -100px;
+	}
+  
+	h1 {
+	  font-size: 40px;
+	  font-weight: bold !important;
+	}
+  
+	.navbar-brand {
+	  padding-left: 10px;
+	  scale: 0.9;
+	}
+  
+	#navbar .nav-link {
+	  font-weight: bolder !important;
+	  font-size: 18px !important;
+	  text-align: center;
+	}
+  
+	.banner-text {
+	  padding-bottom: 20px;
+	}
+  
+	.bookbutton a {
+	  font-size: 18px;
+	  font-weight: bolder;
+	}
+  
+	.maps {
+	  text-align: center !important;
+	}
+  
+	.maps iframe {
+	  width: 380px !important;
+	}
+  
+	.cinema-img {
+	  padding-top: 0px !important;
+	  padding-bottom: 0px !important;
+	  padding-left: 30px !important;
+	  padding-right: 30px !important;
+	  margin-bottom: -50px !important;
+	  margin-top: -100px !important;
+	  text-align: center !important;
+	}
+  
+	.venue-align {
+	  text-align: center;
+	  padding-bottom: 10px;
+	}
+  }
+  
